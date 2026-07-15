@@ -1,8 +1,5 @@
 import java.util.Stack;
 public class ParenthesisCharacter {
-    // public static void main(String[] args) {
-
-    // }
     static boolean isBalanced(String s) {
         if(s.length() % 2 == 1) return false;
         Stack<Character> st = new Stack<>();
