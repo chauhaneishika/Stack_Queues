@@ -34,5 +34,5 @@ public class CelebrityProblem {
             if(arr[i][celeb]==0) return -1;
         }
         return celeb;
-    }
+      }
 }
